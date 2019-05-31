@@ -2,6 +2,11 @@
 #include"structArray.h"
 #include"deletePoint.h"
 
+/*
+* 写的有问题
+* 重复逻辑太多
+*/
+
 extern struct CstructArray structArray;
 
 void deleteFunction(int startPoint)
@@ -16,6 +21,36 @@ void deleteFunction(int startPoint)
 void printDeleteRecord(CdeletePoint dp)
 {
 	toString(dp);
+}
+
+void deleteRecordByYear(CdeletePoint dp)
+{
+	for (int i = structArray.arraySize - 1; i >= 0; i--)
+	{
+		if (dp.deletePoint[i])
+		{
+			deleteFunction(i);
+		}
+	}
+}
+
+void deleteRecordByYear()
+{
+	CdeletePoint dp = findRecordByYear();
+	printDeleteRecord(dp);
+	char flag;
+	printf("是否删除上述数据？Y/N \n");
+
+	flag = getchar();
+	flag = getchar();
+	if (flag == 'Y' || flag == 'y')
+	{
+		deleteRecordByBookNumber(dp);
+	}
+	else
+	{
+		printf("今日无事可做");
+	}
 }
 
 void deleteRecordByBookNumber(struct CdeletePoint dp)
@@ -48,3 +83,4 @@ void deleteRecordByBookNumber()
 		printf("今日无事可做");
 	}
 }
+

@@ -54,6 +54,7 @@ void findRecordByDate(struct CstructArray st)
 	}
 }
 
+// 书号查询
  struct CdeletePoint findRecordByBookNumber(CstructArray st)
 {
 	std::string::size_type position;
@@ -72,6 +73,23 @@ void findRecordByDate(struct CstructArray st)
 	}
 	return dp;
 }
+
+ CdeletePoint findRecordByYear()
+ {
+	 int getYear;
+	 printf("输入要查询的年份：");
+	 scanf("%d", getYear);
+	 CdeletePoint dp;
+	 dp.arraySize = structArray.arraySize;
+	 for (int i = 0; i < structArray.arraySize; i++)
+	 {
+		 if (compareTimeWithYear(structArray.recordArray[i], getYear))
+		 {
+			 dp.deletePoint[i] = true;
+		 }
+	 }
+	 return dp;
+ }
 
 
 

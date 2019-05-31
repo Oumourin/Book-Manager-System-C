@@ -30,3 +30,6 @@ void findRecordByDate(struct CstructArray st);
 
 // 按图书编号查询方法
 struct CdeletePoint findRecordByBookNumber(struct CstructArray st);
+
+// 查询上年已经归还图书
+struct CdeletePoint findRecordByYear();

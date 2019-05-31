@@ -13,3 +13,17 @@ bool compareTimeWithborrowingRecord(struct CborrowingRecord br, int year, int mo
 		return false;
 	}
 }
+
+bool compareTimeWithYear(CborrowingRecord br, int year)
+{
+	struct tm* getMT;
+	getMT = gmtime(&br.returnDate);
+	if ((getMT->tm_year + 1900) == year)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
