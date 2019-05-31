@@ -1,6 +1,7 @@
 #pragma once
 #include<memory.h>
 
+// É¾³ý±êÖ¾Î»
 struct CdeletePoint
 {
 	bool deletePoint[1000];
