@@ -78,7 +78,7 @@ void findRecordByDate(struct CstructArray st)
  {
 	 int getYear;
 	 printf("输入要查询的年份：");
-	 scanf("%d", getYear);
+	 scanf("%d", &getYear);
 	 CdeletePoint dp;
 	 dp.arraySize = structArray.arraySize;
 	 for (int i = 0; i < structArray.arraySize; i++)
