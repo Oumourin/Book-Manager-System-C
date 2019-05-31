@@ -63,6 +63,8 @@ void addReturnBookTime(struct CborrowingRecord * br);
 void returnBook(struct CborrowingRecord * br);
 
 
+
+
 // 结构体初始化宏
 //#define newCborrowingRecord(_licenseNumber, _bookNumber) \
 //{	\

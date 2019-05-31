@@ -24,6 +24,18 @@
     <ClInclude Include="borrowingRecord.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="timeFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteRecord.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deletePoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +48,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="initArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findRecord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timeFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteRecord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

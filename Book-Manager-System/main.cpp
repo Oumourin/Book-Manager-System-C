@@ -3,18 +3,12 @@ extern struct CstructArray structArray;
 
 int main(int args, char* argv[])
 {
-	struct tm * testMT;
-	time_t getNowTime = time(0);
-	testMT = gmtime(&getNowTime);
-	testMT->tm_mon = 2;
-	time_t getTestTime = mktime(testMT);
-	struct CborrowingRecord br1("114514", "1919810");
-	toString(br1);
-	br1.borrowingDate = getTestTime;
-	toString(br1);
-	returnBook(&br1);
-	toString(br1);
-	//addborrowingRecord(br1);
-	//toString(structArray.recordArray[0]);
+	struct CborrowingRecord st1("114514", "1919810");
+	struct CborrowingRecord st2("233333", "233333");
+	addborrowingRecord(st1);
+	addborrowingRecord(st2);
+	toString(structArray);
+	deleteRecordByBookNumber();
+	toString(structArray);
 	return 0;
 }
