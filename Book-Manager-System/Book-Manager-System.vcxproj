@@ -123,11 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="bookStruct.h" />
+    <ClInclude Include="borrowingRecord.h" />
+    <ClInclude Include="statement.h" />
+    <ClInclude Include="structArray.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bookStruct.cpp" />
+    <ClCompile Include="initArray.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="structArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

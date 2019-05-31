@@ -1,4 +1,4 @@
-#include "bookStruct.h"
+#include "borrowingRecord.h"
 
 void setBorrowingRecord(CborrowingRecord br,std::string licenseNumber,std::string bookNumber)
 {

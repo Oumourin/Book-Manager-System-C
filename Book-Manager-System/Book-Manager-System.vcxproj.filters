@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bookStruct.h">
+    <ClInclude Include="structArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="borrowingRecord.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -24,6 +30,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="bookStruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="structArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="initArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
