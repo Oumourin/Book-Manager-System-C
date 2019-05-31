@@ -38,14 +38,29 @@ struct CborrowingRecord
 	{
 		licenseNumber = _licenseNumber;
 		bookNumber = _bookNumber;
-		borrowingDate = time(0);
+		time_t getNowTime = time(0);
+		borrowingDate = getNowTime;
 		returnDate = 0;
 		timeoutPenalty = 0;
 	}
 };
 
 void setBorrowingRecord(struct CborrowingRecord br, std::string licenseNumber, std::string bookNumber);
+// 图书记录输出方法
 void toString(struct CborrowingRecord br);
+
+// 检查是否超时未还方法
+// 超时返回真
+bool checkTimeout(struct CborrowingRecord br);
+
+// 产生罚金方法
+void addPenalty(struct CborrowingRecord * br);
+
+// 添加还书日期方法
+void addReturnBookTime(struct CborrowingRecord * br);
+
+// 添加还书方法
+void returnBook(struct CborrowingRecord * br);
 
 
 // 结构体初始化宏

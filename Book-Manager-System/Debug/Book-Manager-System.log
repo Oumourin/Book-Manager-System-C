@@ -1,5 +1,4 @@
-﻿  initArray.cpp
-  main.cpp
-  structArray.cpp
-  正在生成代码...
+﻿  main.cpp
+C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\main.cpp(8): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(496): note: 参见“gmtime”的声明
   Book-Manager-System.vcxproj -> C:\Users\王茂林\source\repos\Book-Manager-System\Debug\Book-Manager-System.exe
