@@ -20,3 +20,8 @@ void timeoutImformation();
 
 // 统计数据
 void statisticsData();
+
+// 按日期查找
+void findImformationByDay()
+
+void menu();

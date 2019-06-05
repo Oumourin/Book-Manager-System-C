@@ -24,6 +24,11 @@ void findImformation()
 	findRecordByLicenseNumber(structArray);
 }
 
+void findImformationByDay()
+{
+	findRecordByDate(structArray);
+}
+
 void deleteBook()
 {
 	deleteRecordByBookNumber();
@@ -37,5 +42,37 @@ void timeoutImformation()
 void statisticsData()
 {
 	statisticsFine();
+}
+
+void menu(int choice)
+{
+	switch (choice)
+	{
+	case 1:
+		borrowingBook();
+		break;
+	case 2:
+		returnBook();
+		break;
+	case 3:
+		findImformation();
+		break;
+	case 4:
+		findImformationByDay();
+		break;
+	case 5:
+		findImformation();
+	case 6:
+		timeoutImformation();
+		break;
+	case 7:
+		statisticsData();
+		break;
+	case 8:
+		exit(0)
+	default:
+		printf("输入错误，请重新输入！\n");
+		break;
+	}
 }
 
