@@ -69,7 +69,7 @@ void menu(int choice)
 		statisticsData();
 		break;
 	case 8:
-		exit(0)
+		exit(0);
 	default:
 		printf("输入错误，请重新输入！\n");
 		break;
