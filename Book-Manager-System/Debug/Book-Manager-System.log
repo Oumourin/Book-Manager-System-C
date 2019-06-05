@@ -1,10 +1,9 @@
-﻿  findRecord.cpp
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\findRecord.cpp(20): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\findRecord.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\findRecord.cpp(43): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\findRecord.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\findRecord.cpp(84): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\findRecord.cpp(81): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+﻿  creatTestData.cpp
+C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.h(21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  main.cpp
+C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.h(21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  statisticsFine.cpp
+C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.h(21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
   Book-Manager-System.vcxproj -> C:\Users\王茂林\source\repos\Book-Manager-System\Debug\Book-Manager-System.exe

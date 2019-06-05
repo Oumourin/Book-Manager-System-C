@@ -7,3 +7,6 @@ bool compareTimeWithborrowingRecord(struct CborrowingRecord br, int year, int mo
 
 //  年份比较
 bool compareTimeWithYear(CborrowingRecord br, int year);
+
+// 获取当前年份方法
+int getYear(CborrowingRecord br);

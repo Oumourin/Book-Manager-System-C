@@ -4,3 +4,4 @@
 #include"deleteRecord.h"
 #include"timeFunction.h"
 #include"UI.h"
+#include"statisticsFine.h"

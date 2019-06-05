@@ -127,16 +127,19 @@
     <ClInclude Include="deletePoint.h" />
     <ClInclude Include="deleteRecord.h" />
     <ClInclude Include="statement.h" />
+    <ClInclude Include="statisticsFine.h" />
     <ClInclude Include="structArray.h" />
     <ClInclude Include="timeFunction.h" />
     <ClInclude Include="UI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bookStruct.cpp" />
+    <ClCompile Include="creatTestData.cpp" />
     <ClCompile Include="deleteRecord.cpp" />
     <ClCompile Include="findRecord.cpp" />
     <ClCompile Include="initArray.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="statisticsFine.cpp" />
     <ClCompile Include="structArray.cpp" />
     <ClCompile Include="timeFunction.cpp" />
   </ItemGroup>

@@ -27,3 +27,10 @@ bool compareTimeWithYear(CborrowingRecord br, int year)
 		return false;
 	}
 }
+
+int getYear(CborrowingRecord br)
+{
+	tm* getTM;
+	getTM = gmtime(&br.borrowingDate);
+	return (1900 + getTM->tm_year);
+}
