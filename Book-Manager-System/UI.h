@@ -22,6 +22,7 @@ void timeoutImformation();
 void statisticsData();
 
 // 按日期查找
-void findImformationByDay()
+void findImformationByDay();
 
-void menu();
+//  菜单逻辑
+void menu(int choice);
