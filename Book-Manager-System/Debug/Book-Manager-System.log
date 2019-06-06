@@ -1,9 +1,1 @@
-﻿  creatTestData.cpp
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.h(21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-  main.cpp
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.h(21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-  statisticsFine.cpp
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.h(21): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
-C:\Users\王茂林\source\repos\Book-Manager-System\Book-Manager-System\statisticsFine.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
-  正在生成代码...
-  Book-Manager-System.vcxproj -> C:\Users\王茂林\source\repos\Book-Manager-System\Debug\Book-Manager-System.exe
+﻿  Book-Manager-System.vcxproj -> C:\Users\王茂林\source\repos\Book-Manager-System\Debug\Book-Manager-System.exe

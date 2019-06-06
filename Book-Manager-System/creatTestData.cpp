@@ -32,8 +32,10 @@ void initReturnData()
 	test2.timeoutPenalty = 1919;
 }
 
-void initDate()
+void initData()
 {
+	//  重新初始化时将数组清空
+	structArray.arraySize = 0;
 	initBorrowingData();
 	initReturnData();
 	addborrowingRecord(test1);

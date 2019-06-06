@@ -26,3 +26,14 @@ void findImformationByDay();
 
 //  菜单逻辑
 void menu(int choice);
+
+//  打印目前数组中所有数据
+void printArray();
+
+void reinitData();
+
+void startUI();
+
+void menuUI();
+
+int findUI();

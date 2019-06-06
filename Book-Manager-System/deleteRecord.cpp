@@ -77,6 +77,7 @@ void deleteRecordByBookNumber()
 	if (flag == 'Y' || flag == 'y')
 	{
 		deleteRecordByBookNumber(dp);
+		printf("É¾³ý³É¹¦£¡");
 	}
 	else
 	{

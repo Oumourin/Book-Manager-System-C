@@ -46,6 +46,7 @@ void findRecordByDate(struct CstructArray st)
 		if (compareTimeWithborrowingRecord(st.recordArray[i], getYear, getMonth, getDay))
 		{
 			toString(st.recordArray[i]);
+			findFlag = true;
 		}
 	}
 	if (!findFlag)
@@ -54,7 +55,7 @@ void findRecordByDate(struct CstructArray st)
 	}
 }
 
-// 书号查询
+// 书号查询（删除记录用）
  struct CdeletePoint findRecordByBookNumber(CstructArray st)
 {
 	std::string::size_type position;
@@ -73,6 +74,25 @@ void findRecordByDate(struct CstructArray st)
 	}
 	return dp;
 }
+
+ //  书号查询（还书用）
+ CborrowingRecord* findRecordByBookNumber()
+ {
+	 std::string::size_type position;
+	 printf("输入要查找的书籍编号：");
+	 std::string findingBookNumber;
+	 std::cin >> findingBookNumber;
+	 for (int i = 0; i < structArray.arraySize; i++)
+	 {
+		 position = structArray.recordArray[i].bookNumber.find(findingBookNumber);
+		 if (position != std::string::npos)
+		 {
+			 return &structArray.recordArray[i];
+		 }
+	 }
+	 return NULL;
+ }
+
 
  CdeletePoint findRecordByYear()
  {

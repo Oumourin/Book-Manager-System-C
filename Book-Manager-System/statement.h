@@ -5,3 +5,4 @@
 #include"timeFunction.h"
 #include"UI.h"
 #include"statisticsFine.h"
+#include"initData.h"

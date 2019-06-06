@@ -50,7 +50,12 @@ void addPenalty(CborrowingRecord * br)
 	time_t getNowTime = time(0);
 	double timeoutSec = difftime(getNowTime, expirationTime);
 	int timeoutDay = timeoutSec / 86400;
-	int getPenalty = timeoutDay * 0.2;
+	double getPenalty = timeoutDay * 0.2;
+	if (timeoutDay == 0)
+	{
+		// 不足一天按一天算
+		getPenalty = 0.2;
+	}
 	br->timeoutPenalty = getPenalty;
 }
 
@@ -62,14 +67,23 @@ void addReturnBookTime(CborrowingRecord* br)
 
 void returnBook(CborrowingRecord* br)
 {
+	if (br == NULL)
+	{
+		printf("图书未找到！\n");
+		return;
+	}
 	if (checkTimeout(*br))
 	{
 		addPenalty(br);
 		addReturnBookTime(br);
+		printf("超期归还！还书信息如下：\n");
+		toString(*br);
 	}
 	else
 	{
 		addReturnBookTime(br);
+		printf("未超时，还书信息如下：\n");
+		toString(*br);
 	}
 }
 

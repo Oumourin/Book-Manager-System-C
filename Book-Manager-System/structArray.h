@@ -34,4 +34,7 @@ struct CdeletePoint findRecordByBookNumber(struct CstructArray st);
 // 查询上年已经归还图书
 struct CdeletePoint findRecordByYear();
 
+//  查找图书编号方法（还书方法）
+CborrowingRecord* findRecordByBookNumber();
+
 

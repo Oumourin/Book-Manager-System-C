@@ -126,6 +126,7 @@
     <ClInclude Include="borrowingRecord.h" />
     <ClInclude Include="deletePoint.h" />
     <ClInclude Include="deleteRecord.h" />
+    <ClInclude Include="initData.h" />
     <ClInclude Include="statement.h" />
     <ClInclude Include="statisticsFine.h" />
     <ClInclude Include="structArray.h" />
