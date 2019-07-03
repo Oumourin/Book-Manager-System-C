@@ -1,6 +1,13 @@
 # Book-Manager-System-C
 图书管理系统-C语言实现（C++ STL使用）
 
+
+**项目准守GPLV3协议**
+
+
+**master分支适配VS2019  CLION分支适配CLION**
+
+
 >  开发环境：
 >  VS2019
 >  
